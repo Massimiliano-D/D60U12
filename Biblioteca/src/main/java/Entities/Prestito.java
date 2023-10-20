@@ -18,7 +18,8 @@ public class Prestito {
     private LocalDate finePrevistaPrestito;
     private LocalDate finePrestito;
 
-    public Prestito(Utente utente, Catalogo elementoPrestato, LocalDate inizioPrestito, LocalDate finePrevistaPrestito, LocalDate finePrestito) {
+    public Prestito(Utente utente, Catalogo elementoPrestato, LocalDate inizioPrestito,
+                    LocalDate finePrevistaPrestito, LocalDate finePrestito) {
         this.utente = utente;
         this.elementoPrestato = elementoPrestato;
         this.inizioPrestito = inizioPrestito;
