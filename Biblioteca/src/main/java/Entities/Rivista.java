@@ -1,12 +1,10 @@
 package Entities;
 
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "riviste")
+@DiscriminatorValue("ISBN")
 public class Rivista extends Catalogo {
 
     @Enumerated(EnumType.STRING)

@@ -4,13 +4,14 @@ import javax.persistence.*;
 
 @Entity
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+@DiscriminatorColumn(name = "long", discriminatorType.long)
 public abstract class Catalogo {
     @Id
     @GeneratedValue
-    protected long ISBN;
-    protected String titolo;
-    protected int annoPubblicazione;
-    protected int pagine;
+    private long ISBN;
+    private String titolo;
+    private int annoPubblicazione;
+    private int pagine;
 
     public Catalogo(String titolo, int annoPubblicazione, int pagine) {
         this.titolo = titolo;

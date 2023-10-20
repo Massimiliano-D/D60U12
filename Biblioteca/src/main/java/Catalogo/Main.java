@@ -47,5 +47,7 @@ public class Main {
         prd.save(pre1);
         prd.save(pre2);
         prd.save(pre3);
+        //**********RIMOZIONE PER ISBM**********\\
+        ctd.romPerISBN(1);
     }
 }

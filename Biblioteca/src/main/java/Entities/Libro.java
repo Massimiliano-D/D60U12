@@ -1,10 +1,12 @@
 package Entities;
 
+import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "libri")
+@DiscriminatorValue("ISBN")
 public class Libro extends Catalogo {
     private String autore;
     private String genere;
@@ -32,4 +34,5 @@ public class Libro extends Catalogo {
     public void setGenere(String genere) {
         this.genere = genere;
     }
+
 }

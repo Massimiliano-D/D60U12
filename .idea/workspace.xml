@@ -7,7 +7,10 @@
     <list default="true" id="a7b2970f-5295-4c0a-9757-b82567ea8e43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Biblioteca/src/main/java/Catalogo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biblioteca/src/main/java/Catalogo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Biblioteca/src/main/java/Entities/Prestito.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biblioteca/src/main/java/Entities/Prestito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca/src/main/java/DAO/CatalogoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biblioteca/src/main/java/DAO/CatalogoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca/src/main/java/Entities/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biblioteca/src/main/java/Entities/Catalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca/src/main/java/Entities/Libro.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biblioteca/src/main/java/Entities/Libro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Biblioteca/src/main/java/Entities/Rivista.java" beforeDir="false" afterPath="$PROJECT_DIR$/Biblioteca/src/main/java/Entities/Rivista.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
