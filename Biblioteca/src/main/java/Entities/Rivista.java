@@ -1,10 +1,13 @@
 package Entities;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "riviste")
-@DiscriminatorValue("ISBN")
+
 public class Rivista extends Catalogo {
 
     @Enumerated(EnumType.STRING)
@@ -13,6 +16,9 @@ public class Rivista extends Catalogo {
     public Rivista(String titolo, int annoPubblicazione, int pagine, Periodicita periodicita) {
         super(titolo, annoPubblicazione, pagine);
         this.periodicita = periodicita;
+    }
+
+    public Rivista() {
     }
 
     public Periodicita getPeriodicita() {
